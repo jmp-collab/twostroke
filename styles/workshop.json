@@ -1,0 +1,38 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+	"version": 3,
+	"title": "Workshop Light",
+	"settings": {
+		"color": {
+			"defaultPalette": false,
+			"defaultGradients": false,
+			"palette": [
+				{
+					"slug": "base",
+					"color": "#f5f4f0",
+					"name": "Base"
+				},
+				{
+					"slug": "contrast",
+					"color": "#16181a",
+					"name": "Contrast"
+				},
+				{
+					"slug": "accent",
+					"color": "#d94f00",
+					"name": "Accent"
+				},
+				{
+					"slug": "panel",
+					"color": "#e4e1da",
+					"name": "Panel"
+				},
+				{
+					"slug": "muted",
+					"color": "#5b636b",
+					"name": "Muted"
+				}
+			]
+		}
+	}
+}
