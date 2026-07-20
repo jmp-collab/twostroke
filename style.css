@@ -1,0 +1,68 @@
+/*
+Theme Name: TwoStroke
+Theme URI: https://blog.racing-planet.de/themes/twostroke/
+Author: Racing Planet
+Author URI: https://blog.racing-planet.de/themes/
+Description: TwoStroke is a dark, fast, garage-inspired block theme built for scooter and moped enthusiasts, tuning workshops, racing teams and riding clubs. It ships with ready-made patterns for build stories, spec sheets, before/after galleries, team rosters, event lists and workshop pages, a light "Workshop" style variation, and a performance-first setup with no external assets.
+Version: 1.0.1
+Requires at least: 6.5
+Tested up to: 7.0
+Requires PHP: 7.4
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: twostroke
+Tags: blog, portfolio, news, one-column, wide-blocks, block-patterns, block-styles, full-site-editing, style-variations, custom-colors, custom-logo, custom-menu, editor-style, featured-images, threaded-comments, translation-ready
+*/
+
+/* Cards in post listings */
+.twostroke-card {
+	border: 1px solid var(--wp--preset--color--panel);
+	border-left: 3px solid var(--wp--preset--color--accent);
+	padding: var(--wp--preset--spacing--50);
+	transition: border-color .15s ease;
+}
+
+.twostroke-card:hover,
+.twostroke-card:focus-within {
+	border-color: var(--wp--preset--color--accent);
+}
+
+/* Spec sheet table */
+.twostroke-specs table {
+	font-family: var(--wp--preset--font-family--mono);
+	font-size: var(--wp--preset--font-size--small);
+	border-collapse: collapse;
+	width: 100%;
+}
+
+.twostroke-specs th {
+	text-align: left;
+	text-transform: uppercase;
+	letter-spacing: .06em;
+	color: var(--wp--preset--color--accent);
+	border-bottom: 2px solid var(--wp--preset--color--accent);
+}
+
+.twostroke-specs th,
+.twostroke-specs td {
+	border: 0;
+	border-bottom: 1px solid var(--wp--preset--color--panel);
+	padding: .6em .8em;
+}
+
+/* Accent rule under headings inside hero pattern */
+.twostroke-rule {
+	width: 72px;
+	height: 4px;
+	background: var(--wp--preset--color--accent);
+}
+
+/* Keyboard focus visibility (WP.org accessibility requirement) */
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+textarea:focus-visible,
+.wp-block-button__link:focus-visible {
+	outline: 2px solid var(--wp--preset--color--accent);
+	outline-offset: 2px;
+}
