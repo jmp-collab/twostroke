@@ -1,0 +1,115 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: TwoStroke 1.0.0\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: build_twostroke.py\n"
+
+msgid "TwoStroke: Garage"
+msgstr ""
+
+msgid "Built in the garage. Proven on the road."
+msgstr ""
+
+msgid "Builds, spec sheets and stories from the workshop. Add your own project and show what your machine is made of."
+msgstr ""
+
+msgid "See the builds"
+msgstr ""
+
+msgid "About the workshop"
+msgstr ""
+
+msgid "Spec sheet"
+msgstr ""
+
+msgid "Component"
+msgstr ""
+
+msgid "Part"
+msgstr ""
+
+msgid "Notes"
+msgstr ""
+
+msgid "Cylinder"
+msgstr ""
+
+msgid "Carburettor"
+msgstr ""
+
+msgid "Exhaust"
+msgstr ""
+
+msgid "Gearing"
+msgstr ""
+
+msgid "Ignition"
+msgstr ""
+
+msgid "Clutch"
+msgstr ""
+
+msgid "Note: check the legal requirements for road use in your country before modifying your vehicle."
+msgstr ""
+
+msgid "The build"
+msgstr ""
+
+msgid "Step 1 — Teardown"
+msgstr ""
+
+msgid "Describe what you started with, what came off the bike and what you found along the way."
+msgstr ""
+
+msgid "Step 2 — Assembly"
+msgstr ""
+
+msgid "Document the parts you fitted, the tools you used and the problems you solved."
+msgstr ""
+
+msgid "Before"
+msgstr ""
+
+msgid "After"
+msgstr ""
+
+msgid "The team"
+msgstr ""
+
+msgid "Rider name"
+msgstr ""
+
+msgid "Role, machine, class."
+msgstr ""
+
+msgid "Events"
+msgstr ""
+
+msgid "Date"
+msgstr ""
+
+msgid "Event"
+msgstr ""
+
+msgid "Location"
+msgstr ""
+
+msgid "Partners"
+msgstr ""
+
+msgid "Opening hours"
+msgstr ""
+
+msgid "Monday to Friday: add your hours here."
+msgstr ""
+
+msgid "Saturday: add your hours here."
+msgstr ""
+
+msgid "Contact"
+msgstr ""
+
+msgid "Address, phone and email of your workshop or club."
+msgstr ""
