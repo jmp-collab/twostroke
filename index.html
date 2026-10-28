@@ -52,7 +52,7 @@ const b64=(s)=>Uint8Array.from(atob(s),c=>c.charCodeAt(0));
 async function unlock(pw,keep){
   const base=await crypto.subtle.importKey("raw",new TextEncoder().encode(pw.trim().toLowerCase()),"PBKDF2",false,["deriveKey"]);
   const key=await crypto.subtle.deriveKey({name:"PBKDF2",salt:b64(META.s),iterations:META.n,hash:"SHA-256"},base,{name:"AES-GCM",length:256},false,["decrypt"]);
-  const data=await (await fetch("payload.bin",{cache:"no-cache"})).arrayBuffer();
+  const data=b64((await (await fetch("payload.txt",{cache:"no-cache"})).text()).trim());
   const plain=await crypto.subtle.decrypt({name:"AES-GCM",iv:b64(META.i)},key,data);
   const html=await new Response(new Blob([plain]).stream().pipeThrough(new DecompressionStream("gzip"))).text();
   try{ if(keep) localStorage.setItem(KEY,pw.trim().toLowerCase()); }catch(e){}
